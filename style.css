@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;   /*this is done to remove extra margin bydefault */
+}
+h1{
+    background-color: rgb(58, 58, 76);
+    color: rgb(184, 214, 214);
+    height: 5rem;
+    line-height: 5rem;
+}
+
+body{
+    background-color: rgb(142, 161, 64);
+    text-align: center;
+}
+.container{
+    height: 80vh; /*7070% of visible page is with container*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 70vmin; /*70% of viewport's smaller dimension*/
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1vmin;
+    border-color: rgb(20, 99, 32);
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 9vmin;
+    color: rgb(107, 29, 50);
+    background-color: rgb(143, 68, 68);
+}
+#reset{
+    height: 7vmin;
+    width: 17vmin;
+    background-color: black;
+    font-size: 2vmin;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#new-gameButton{
+    height: 8vmin;
+    width: 15vmin;
+    background-color: black;
+    font-size: 2vmin;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: rgb(10, 60, 60);
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 20vmin;
+    
+}
+.hide{    /*by applying hide here we can hide the class and show whenever we want.*/
+    display: none;
+}
